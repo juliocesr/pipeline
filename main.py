@@ -1,4 +1,6 @@
 from Coleta import ColetaTodosDados
+from Coleta import Processamento
 
 if __name__ == "__main__":
-    ColetaTodosDados.coletarDados()
+    Processamento.processamento()
+    # ColetaTodosDados.coletarDados()
