@@ -1,6 +1,9 @@
 from Coleta import ColetaTodosDados
-from Coleta import Processamento
+from Coleta import ProcessamentoDataLake
+from Coleta import ConexaoMongoDB
+from Coleta import ConexaoPostgresSQL
 
 if __name__ == "__main__":
-    Processamento.processamento()
+    ConexaoPostgresSQL.conecxaoPostgres()
+    # ProcessamentoDataLake.processamento()
     # ColetaTodosDados.coletarDados()
